@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.10.10.21']
+# ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.10.10.21']
 
 import django_heroku
 django_heroku.settings(locals())
